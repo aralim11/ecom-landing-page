@@ -1,0 +1,139 @@
+body {
+    font-family: "sofia-pro", sans-serif!important;
+    color: #030c2d!important;
+    font-size: 16px!important;
+}
+
+@media (max-width: 1340px){
+    body {
+        font-size: 15px;
+    }
+}
+
+.shop_box_inner {
+    position: relative;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 90px 30px;
+    min-height: 550px;
+}
+
+@media (max-width: 1320px){
+    .shop_box_inner {
+        padding: 45px 30px;
+    }
+}
+
+.shop_box_content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 35px 0 0 450px;
+}
+
+@media (max-width: 1320px){
+    .shop_box_content {
+        margin: 80px 0 0 400px;
+    }
+}
+
+@media (max-width: 840px){
+    .shop_box_content {
+        margin: 80px 0 0 280px;
+    }
+}
+
+@media (max-width: 650px){
+    .shop_box_content {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.shop_box_title {
+    line-height: 1.25;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1340px){
+    .shop_box_title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px){
+    .shop_box_title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 560px){
+    .shop_box_title {
+        font-size: 22px;
+    }
+}
+
+.shop_box_subtitle {
+    font-size: 22px;
+    line-height: 1.33;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1340px){
+    .shop_box_subtitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px){
+    .shop_box_subtitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 560px){
+    .shop_box_subtitle {
+        font-size: 14px;
+    }
+}
+
+.set_up_img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 500px;
+}
+
+@media (max-width: 840px){
+    .set_up_img {
+        left: -120px;
+    }
+}
+
+@media (max-width: 650px){
+    .set_up_img {
+        position: relative;
+        left: 0;
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 450px){
+    .set_up_img {
+        left: -50px;
+    }
+}
+
+@media (max-width: 375px){
+    .set_up_img {
+        left: -100px;
+    }
+}
