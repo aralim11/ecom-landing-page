@@ -247,3 +247,43 @@ body {
         color: #969696;
     }
 }
+
+
+.chart{
+    background-image: url(https://cdn.shopify.com/s/files/1/0365/1973/9437/t/2/assets/pf-d577815b--mattress-softness3-1.jpg?v=1628230114);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.chart_inner{
+    max-width: 1170px;
+    background-color: #f7f7f7;
+    color: #393e41;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chart_title{
+    line-height: 44px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 18px;
+}
+
+.image_inner{
+    padding-bottom: 35px;
+}
+
+
+
+.comfortCard {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    padding: 2.5rem 1.25rem 1.25rem;
+    height: 100%;
+    text-align: left;
+    background: #f6f5f3;
+}
