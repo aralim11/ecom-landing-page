@@ -278,6 +278,32 @@ body {
 
 
 
+
+
+.u-marginTop--md {
+    margin-top: 1.25rem;
+}
+
+.comfortCard__container {
+    display: -webkit-flex;
+    display: flex;
+    min-height: 100%;
+    padding-top: 2.1125rem;
+}
+
+@media (min-width: 576px){
+    .comfortCard__container {
+        width: 100%;
+        margin: 0 0 2.5rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__container {
+        margin: 0;
+    }
+}
+
 .comfortCard {
     display: -webkit-flex;
     display: flex;
@@ -286,4 +312,207 @@ body {
     height: 100%;
     text-align: left;
     background: #f6f5f3;
+}
+
+.comfortCard__violater {
+    position: absolute;
+    top: -2.1125rem;
+    left: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+    min-width: 42.37288%;
+    padding: 0 1.25rem 0.75rem;
+    background: #fff;
+    border-radius: 0 0 5px 0;
+    margin-top: 37px;
+    margin-left: 9px;
+}
+
+.comfortCard__violater--interactive {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+@media (min-width: 576px){
+    .comfortCard__violater--interactive {
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 576px){
+    .comfortCard__violater {
+        min-width: 188px;
+    }
+}
+
+.comfortCard__title {
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    font-family: Source Sans Pro,Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 400;
+    color: #6b6257;
+}
+
+.blogContent h2, .comfortModalOption__label, .t-heading4 {
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 1.125rem;
+    line-height: 1.56;
+}
+
+.blogContent h2, .comfortModalOption__label, .t-heading4, .t-heading5 {
+    letter-spacing: normal;
+    font-weight: 400;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.comfortCard__firmness {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+    border-radius: 50%;
+    color: #6b6257;
+    background-color: #efeae6;
+}
+
+.comfortCard__firmness--interactive {
+    color: #fff;
+    background-color: #c19678;
+}
+
+@media (min-width: 576px){
+    .comfortCard__firmness--interactive {
+        color: #6b6257;
+        background-color: #efeae6;
+    }
+}
+
+.comfortCard__content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+}
+
+@media (min-width: 768px){
+    .comfortCard__content {
+        -webkit-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__content {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px){
+    .comfortCard__copy {
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__copy {
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
+}
+
+.u-marginBottom--sm {
+    margin-bottom: 0.75rem;
+}
+
+.t-fontWeight--normal {
+    font-weight: 400;
+}
+
+.u-marginBottom--none {
+    margin-bottom: 0;
+}
+
+.comfortCard__list {
+    font-size: .875rem;
+    list-style-type: disc;
+}
+
+.comfortCard__list li {
+    list-style-type: disc;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+}
+
+.comfortCard__list li {
+    margin: 0 0 0.5rem 0.75rem;
+}
+
+.comfortCard__videoContainer {
+    cursor: pointer;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-top: 1.25rem;
+}
+
+@media (min-width: 768px){
+    .comfortCard__videoContainer {
+        -webkit-flex: 0 0 48.42767%;
+        flex: 0 0 48.42767%;
+        margin-top: 0;
+        margin-left: 1.25rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__videoContainer {
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+        margin-top: 1.25rem;
+        margin-left: 0;
+    }
+}
+
+.comfortCard__videoPlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background: hsla(0,0%,100%,.9);
+    border-radius: 50%;
+}
+
+.comfortCard__videoPlayIcon {
+    stroke: #c19678;
+    fill: #c19678;
+}
+
+.comfortCard__videoCover {
+    position: relative;
+    z-index: 0;
+    display: block;
+    width: 100%;
 }
