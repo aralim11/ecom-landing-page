@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Ecom Landing</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="front/Fonts/sofiapro-light.otf">
+    <style>
+
+        body{
+            padding: 30px;
+            background-color: #F9F5F5;
+        }
+
+        .tab-heading-active {
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0.375rem;
+    font-size: 1.125rem;
+    line-height: 1.333;
+    letter-spacing: 0.075rem;
+    color: rgb(30, 48, 110);
+    cursor: pointer;
+    border: 0px transparent;
+
+}
+.tab-heading-active:hover{
+      
+}
+.tab-heading-inactive {
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 0.375rem;
+    font-size: 1.125rem;
+    line-height: 1.333;
+    letter-spacing: 0.075rem;
+    color: rgb(137, 154, 199);
+    cursor: pointer;
+}
+.divider{
+    border: 1px solid; margin-top:20px;width:50%
+}
+.heading-title1{
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 1;
+    letter-spacing: -0.025rem;
+    color: rgb(30, 48, 110);
+
+}
+.sub-heading{
+    margin-top: 30px;
+    font-weight: bold;
+     color: rgb(30, 48, 110);
+}
+
+.tab-content{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .heading-title1{
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    letter-spacing: -0.025rem;
+    color: rgb(30, 48, 110);
+
+}
+.sub-heading{
+    margin-top: 20px;
+    font-weight: bold;
+     color: rgb(30, 48, 110);
+}
+   .banner-img{
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading-title1{
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: -0.025rem;
+    color: rgb(30, 48, 110);
+
+}
+.sub-heading{
+    margin-top: 20px;
+    font-weight: bold;
+     color: rgb(30, 48, 110);
+}
+   .banner-img{
+    height: 250px;
+  }
+}
+    </style>
+    
+    
+    </head>
+    <body>
+       <div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div class="mt-3">
+        <div class="">
+          <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link  tab-heading-active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">TEXTILE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link tab-heading-inactive" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="false">COOLING</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  tab-heading-inactive" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="Three" aria-selected="false">SUPPORT</a>
+            </li>
+          </ul>
+          <div class="divider"></div>
+        </div>
+
+        <div  class="tab-content" id="myTabContent">
+
+          <div class="tab-pane fade show active p-3" id="one" role="tabpanel" aria-labelledby="one-tab">
+            <div  class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <h1 class="heading-title1">Like sleeping on a supportive cloud.</h1>
+                        <div>
+                            <h5 class="sub-heading">
+                                <span>An inviting top layer</span>
+                            </h5>
+                            <div class="description">
+                                    <div>
+                                        <span>Our velvety soft layer makes bedtime extra cozy. Knit fabrics lightly cradle and stretch to ease you into bed, while the layers below offer support and relief.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                            <h5 class="sub-heading">
+                                <span>An inviting top layer</span>
+                            </h5>
+                            <div style="margin-bottom: 30px;" class="description">
+                                    <div>
+                                        <span>Our velvety soft layer makes bedtime extra cozy. Knit fabrics lightly cradle and stretch to ease you into bed, while the layers below offer support and relief.</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>           
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <img class="img-fluid" height="650px" src="https://caspercontent.imgix.net/3lpa6ulQ6ZvICZEjWaM7bH/45e118cf8784aeac487f3c94ce64385d/Nova-Hybrid-Plush-03-D.png" alt="">
+                    </div>  
+                </div>
+            </div>         
+          </div>
+          <div class="tab-pane fade p-3" id="two" role="tabpanel" aria-labelledby="two-tab">
+            <h5 class="card-title">Tab Card Two</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>              
+          </div>
+          <div class="tab-pane fade p-3" id="three" role="tabpanel" aria-labelledby="three-tab">
+            <h5 class="card-title">Tab Card Three</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>              
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+</html>

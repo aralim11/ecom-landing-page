@@ -1,0 +1,518 @@
+body {
+    font-family: "sofia-pro", sans-serif!important;
+    color: #030c2d!important;
+    font-size: 16px!important;
+}
+
+@media (max-width: 1340px){
+    body {
+        font-size: 15px;
+    }
+}
+
+.shop_box_inner {
+    position: relative;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 90px 30px;
+    min-height: 550px;
+}
+
+@media (max-width: 1320px){
+    .shop_box_inner {
+        padding: 45px 30px;
+    }
+}
+
+.shop_box_content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 35px 0 0 450px;
+}
+
+@media (max-width: 1320px){
+    .shop_box_content {
+        margin: 80px 0 0 400px;
+    }
+}
+
+@media (max-width: 840px){
+    .shop_box_content {
+        margin: 80px 0 0 280px;
+    }
+}
+
+@media (max-width: 650px){
+    .shop_box_content {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.shop_box_title {
+    line-height: 1.25;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1340px){
+    .shop_box_title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px){
+    .shop_box_title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 560px){
+    .shop_box_title {
+        font-size: 22px;
+    }
+}
+
+.shop_box_subtitle {
+    font-size: 22px;
+    line-height: 1.33;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1340px){
+    .shop_box_subtitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px){
+    .shop_box_subtitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 560px){
+    .shop_box_subtitle {
+        font-size: 14px;
+    }
+}
+
+.set_up_img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 500px;
+}
+
+@media (max-width: 840px){
+    .set_up_img {
+        left: -120px;
+    }
+}
+
+@media (max-width: 650px){
+    .set_up_img {
+        position: relative;
+        left: 0;
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 450px){
+    .set_up_img {
+        left: -50px;
+    }
+}
+
+@media (max-width: 375px){
+    .set_up_img {
+        left: -100px;
+    }
+}
+
+
+
+.frames {
+    position: relative;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 90px 30px;
+    text-align: center;
+}
+
+@media (max-width: 1320px){
+    .frames {
+        padding: 45px 30px;
+    }
+}
+
+.frames_title {
+    line-height: 1.25;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1340px){
+    .frames_title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px){
+    .frames_title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 560px){
+    .frames_title {
+        font-size: 22px;
+    }
+}
+
+.frames_subtitle {
+    font-size: 22px;
+    line-height: 1.33;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1340px){
+    .frames_subtitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px){
+    .frames_subtitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 560px){
+    .frames_subtitle {
+        font-size: 14px;
+    }
+}
+
+.frames_options {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width: 880px){
+    .frames_options {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.frames_option {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 1000px){
+    .frames_option {
+        font-size: 18px;
+    }
+}
+
+.frames_or {
+    text-transform: uppercase;
+    padding: 45px 45px 0;
+    font-size: 20px;
+}
+
+@media (max-width: 880px){
+    .frames_or {
+        padding: 40px 0;
+        font-size: 16px;
+        color: #969696;
+    }
+}
+
+
+.chart{
+    background-image: url(https://cdn.shopify.com/s/files/1/0365/1973/9437/t/2/assets/pf-d577815b--mattress-softness3-1.jpg?v=1628230114);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.chart_inner{
+    max-width: 1170px;
+    background-color: #f7f7f7;
+    color: #393e41;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chart_title{
+    line-height: 44px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 18px;
+}
+
+.image_inner{
+    padding-bottom: 35px;
+}
+
+
+
+
+
+.u-marginTop--md {
+    margin-top: 1.25rem;
+}
+
+.comfortCard__container {
+    display: -webkit-flex;
+    display: flex;
+    min-height: 100%;
+    padding-top: 2.1125rem;
+}
+
+@media (min-width: 576px){
+    .comfortCard__container {
+        width: 100%;
+        margin: 0 0 2.5rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__container {
+        margin: 0;
+    }
+}
+
+.comfortCard {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    padding: 2.5rem 1.25rem 1.25rem;
+    height: 100%;
+    text-align: left;
+    background: #f6f5f3;
+}
+
+.comfortCard__violater {
+    position: absolute;
+    top: -2.1125rem;
+    left: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+    min-width: 42.37288%;
+    padding: 0 1.25rem 0.75rem;
+    background: #fff;
+    border-radius: 0 0 5px 0;
+    margin-top: 37px;
+    margin-left: 9px;
+}
+
+.comfortCard__violater--interactive {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+@media (min-width: 576px){
+    .comfortCard__violater--interactive {
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 576px){
+    .comfortCard__violater {
+        min-width: 188px;
+    }
+}
+
+.comfortCard__title {
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    font-family: Source Sans Pro,Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 400;
+    color: #6b6257;
+}
+
+.blogContent h2, .comfortModalOption__label, .t-heading4 {
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 1.125rem;
+    line-height: 1.56;
+}
+
+.blogContent h2, .comfortModalOption__label, .t-heading4, .t-heading5 {
+    letter-spacing: normal;
+    font-weight: 400;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.comfortCard__firmness {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+    border-radius: 50%;
+    color: #6b6257;
+    background-color: #efeae6;
+}
+
+.comfortCard__firmness--interactive {
+    color: #fff;
+    background-color: #c19678;
+}
+
+@media (min-width: 576px){
+    .comfortCard__firmness--interactive {
+        color: #6b6257;
+        background-color: #efeae6;
+    }
+}
+
+.comfortCard__content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex: 0 0 100%;
+    flex: 0 0 100%;
+}
+
+@media (min-width: 768px){
+    .comfortCard__content {
+        -webkit-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__content {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px){
+    .comfortCard__copy {
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__copy {
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+    }
+}
+
+.u-marginBottom--sm {
+    margin-bottom: 0.75rem;
+}
+
+.t-fontWeight--normal {
+    font-weight: 400;
+}
+
+.u-marginBottom--none {
+    margin-bottom: 0;
+}
+
+.comfortCard__list {
+    font-size: .875rem;
+    list-style-type: disc;
+}
+
+.comfortCard__list li {
+    list-style-type: disc;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+}
+
+.comfortCard__list li {
+    margin: 0 0 0.5rem 0.75rem;
+}
+
+.comfortCard__videoContainer {
+    cursor: pointer;
+    -webkit-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-top: 1.25rem;
+}
+
+@media (min-width: 768px){
+    .comfortCard__videoContainer {
+        -webkit-flex: 0 0 48.42767%;
+        flex: 0 0 48.42767%;
+        margin-top: 0;
+        margin-left: 1.25rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .comfortCard__videoContainer {
+        -webkit-flex: 0 0 auto;
+        flex: 0 0 auto;
+        margin-top: 1.25rem;
+        margin-left: 0;
+    }
+}
+
+.comfortCard__videoPlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background: hsla(0,0%,100%,.9);
+    border-radius: 50%;
+}
+
+.comfortCard__videoPlayIcon {
+    stroke: #c19678;
+    fill: #c19678;
+}
+
+.comfortCard__videoCover {
+    position: relative;
+    z-index: 0;
+    display: block;
+    width: 100%;
+}
