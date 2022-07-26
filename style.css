@@ -1,5 +1,5 @@
 body {
-    font-family: "sofia-pro", sans-serif!important;
+    font-family: "Poppins",sans-serif!important;
     color: #030c2d!important;
     font-size: 16px!important;
 }
@@ -517,12 +517,6 @@ body {
     width: 100%;
 }
 
-
-/* 
-body{
-    padding: 30px;
-    background-color: #F9F5F5;
-} */
 
 .tab-heading-active {
 font-style: normal;
