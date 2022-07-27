@@ -618,15 +618,6 @@ height: 250px;
     font-size: 27px;
 }
 
-
-.accordingMain span{
-    background-color: cadetblue;
-    border-radius: 3px;
-    margin-right: 5px;
-    width: 30px;
-    height: 20px;
-    text-align: center;
-}
 .accordingMain .accordion{
     margin-left: 50px;
 }
@@ -637,4 +628,64 @@ height: 250px;
 
 .accordingMain img{
     width: 700px; 
+}
+
+.mattressLayer__constructionStepIcon {
+    width: 24px;
+    height: 24px;
+    font-size: .875rem;
+    font-weight: 300;
+    border-radius: 9999px;
+    border: 1px solid #d2d2d2;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.mattressLayer__constructionStepText {
+    margin-left: 0.75rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: left;
+    z-index: 1;
+}
+
+.mattressLayer__constructionStep {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.mattressLayer__constructionTab {
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 0.75rem;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 0;
+    min-width: 100%;
+}
+
+.mattressLayer__constructionTab[aria-selected=true] {
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+.mattressLayer__constructionDescription:not([hidden]) {
+    -webkit-animation: reveal .01s ease 0;
+    animation: reveal .01s ease 0;
+    overflow: visible;
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s cubic-bezier(.25,0,1,1),opacity .3s cubic-bezier(.25,0,1,1) .2s;
 }
