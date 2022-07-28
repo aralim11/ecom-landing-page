@@ -628,7 +628,7 @@ height: 250px;
 }
 
 .accordingMain img{
-    width: 700px; 
+    width: 100%; 
 }
 
 .accordingMain .mattressLayer__constructionStepIcon {
