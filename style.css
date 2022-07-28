@@ -444,7 +444,7 @@ body {
 }
 
 .t-fontWeight--normal {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .u-marginBottom--none {
@@ -616,6 +616,7 @@ height: 250px;
 .accordingMain p{
     text-align: center;
     font-size: 27px;
+    color: #6b6257;
 }
 
 .accordingMain .accordion{
@@ -630,24 +631,24 @@ height: 250px;
     width: 700px; 
 }
 
-.mattressLayer__constructionStepIcon {
-    width: 24px;
-    height: 24px;
+.accordingMain .mattressLayer__constructionStepIcon {
+    width: 35px;
+    height: 35px;
     font-size: .875rem;
-    font-weight: 300;
+    font-weight: 900;
     border-radius: 9999px;
-    border: 1px solid #d2d2d2;
+    border: 2px solid #d2d2d2;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
     -webkit-align-items: center;
     align-items: center;
-    background-color: #fff;
-    color: #000;
+    color: #fff;
+    background-color: #6b6257;
 }
 
-.mattressLayer__constructionStepText {
+.accordingMain .mattressLayer__constructionStepText {
     margin-left: 0.75rem;
     display: -webkit-flex;
     display: flex;
@@ -655,16 +656,19 @@ height: 250px;
     align-items: center;
     text-align: left;
     z-index: 1;
+    color: #000;
+    font-weight: 600;
 }
 
-.mattressLayer__constructionStep {
+.accordingMain .mattressLayer__constructionStep {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
+    font-size: 21px;
 }
 
-.mattressLayer__constructionTab {
+.accordingMain .mattressLayer__constructionTab {
     color: #000;
     font-size: 1.25rem;
     font-weight: 300;
@@ -675,17 +679,28 @@ height: 250px;
     min-width: 100%;
 }
 
-.mattressLayer__constructionTab[aria-selected=true] {
+.accordingMain .mattressLayer__constructionTab[aria-selected=true] {
     color: #000;
     font-weight: 400;
     padding-bottom: 0;
 }
 
-.mattressLayer__constructionDescription:not([hidden]) {
+.accordingMain .mattressLayer__constructionDescription:not([hidden]) {
     -webkit-animation: reveal .01s ease 0;
     animation: reveal .01s ease 0;
     overflow: visible;
     visibility: visible;
     opacity: 1;
     transition: all .3s cubic-bezier(.25,0,1,1),opacity .3s cubic-bezier(.25,0,1,1) .2s;
+}
+
+.accordingMain .btn-link:hover {
+    color: #0056b3;
+    text-decoration: none!important;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.accordingMain .show{
+    margin-top: -21px;
 }
