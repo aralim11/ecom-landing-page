@@ -660,6 +660,10 @@ height: 250px;
     font-weight: 600;
 }
 
+.accordingMain .mattressLayer__constructionButton {
+    cursor: pointer;
+}
+
 .accordingMain .mattressLayer__constructionStep {
     display: -webkit-flex;
     display: flex;
